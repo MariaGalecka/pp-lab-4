@@ -19,7 +19,7 @@ public class Worker extends Employee {
 
     @Override
     public String toString() {
-        return "Robotnik: {" +
+        return "Pracownik: {" +
                 "Imię i Nazwisko='" + getFullName() + '\'' +
                 ", Wypłata=" + getSalary() +
                 ", Stanowisko='" + position + '\'' +
