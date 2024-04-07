@@ -1,3 +1,5 @@
+package employees;
+
 public class Employee {
 
     private String fullName;
@@ -22,6 +24,9 @@ public class Employee {
 
     @Override
     public String toString() {
-        return "Pracownik: {" + fullName + "}, Wynagrodzenie: {" + salary + "}";
+        return "Pracownik: {" +
+                "Imię i Nazwisko='" + fullName + '\'' +
+                ", Wypłata=" + salary +
+                '}';
     }
 }
